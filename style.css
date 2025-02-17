@@ -105,9 +105,9 @@ main .intro1 .heading h1 {
   font-size: clamp(2.7rem, 5vw, 7rem);
 }
 main .intro1 .heading p {
-  font-size: clamp(1.3rem, 5vw, 1.9rem);
-  font-family: "Satoshi", sans-serif;
-  font-weight: 400;
+  font-size: clamp(1rem, 5vw, 1.9rem);
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
   line-height: 1.8rem;
 }
 main .intro1 .video {
@@ -243,6 +243,116 @@ main .sec4 .images .subhead h3 {
 }
 main .sec4 .images .subhead code {
   font-size: 1rem;
+}
+main .sec5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .sec5 .title {
+  font-size: 1.3rem;
+  font-family: "Satoshi";
+  line-height: 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+main .sec6 {
+  padding: 2rem 0;
+  border-bottom: 1px solid black;
+}
+main .sec6 h1 {
+  font-family: "Syne";
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+main .sec7 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 2rem;
+  border: none;
+}
+main .sec7 img {
+  border-radius: 15px;
+  width: 100%;
+}
+main .sec7 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .sec7 .content .secPara {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+main .sec7 .content .secPara code {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-family: "Roboto";
+}
+main .sec7 .content .secPara .secPara1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 1rem;
+}
+main .sec7 .content .secPara .secPara1 h1 {
+  font-family: "Syne";
+  font-size: 2rem;
+  font-weight: 500;
+}
+main .sec7 .content .secPara .secPara1 p {
+  font-family: "Satoshi";
+  line-height: 1.7rem;
+}
+main .sec9 {
+  padding: 2rem 0;
+  border-bottom: 1px solid black;
+}
+main .sec9 h1 {
+  font-family: "Syne";
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+main .sec9 button {
+  display: none;
+}
+main .sec10 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem 0;
+}
+main .sec10 .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+main .sec10 .content2 .contImg img {
+  width: 100%;
+  border-radius: 15px;
+}
+main .sec10 .content2 p {
+  font-family: "Roboto";
+}
+main .sec10 .content2 h3 {
+  font-family: "Syne";
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .light {
@@ -478,5 +588,169 @@ i {
     width: 1px;
     height: 15rem;
     background-color: black;
+  }
+  main .sec4 {
+    display: flex;
+    flex-direction: row;
+  }
+  main .sec4 .featured-work {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .sec4 .featured-work h1, main .sec4 .featured-work p, main .sec4 .featured-work div {
+    position: sticky;
+    top: 0;
+  }
+  main .sec4 .featured-work .work {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .sec4 .featured-work .work h1 {
+    font-size: 4rem;
+  }
+  main .sec4 .featured-work .work p {
+    font-size: 1.1rem;
+  }
+  main .sec4 .line4 {
+    width: 1px;
+    height: auto;
+    background-color: black;
+  }
+  main .sec4 .images {
+    display: grid;
+    grid-template-areas: "a a" "a a" "b c" "d e";
+  }
+  main .sec4 .images img {
+    width: 100%;
+    height: 100%;
+  }
+  main .sec4 .images .img-a {
+    grid-area: a;
+  }
+  main .sec4 .images .img-b {
+    grid-area: b;
+  }
+  main .sec4 .images .img-c {
+    grid-area: c;
+  }
+  main .sec5 {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  main .sec5 .line4 {
+    width: 1px;
+    height: auto;
+    background-color: black;
+  }
+  main .sec5 .head {
+    width: 65%;
+    gap: 11rem;
+  }
+  main .sec5 .title {
+    font-size: 1.4rem;
+    font-family: "Satoshi";
+    line-height: 2.2rem;
+    gap: 2rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .sec5 .heading {
+    width: 100%;
+  }
+  main .sec5 .heading h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  main .sec5 .heading p {
+    font-size: 1rem;
+  }
+  main .sec6 h1 {
+    font-size: 4rem;
+  }
+  main .sec7 {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+    gap: 2rem;
+    border-bottom: 1px solid black;
+    align-items: center;
+  }
+  main .sec7 .imgdoc {
+    align-self: stretch;
+    border-radius: 16px;
+    height: auto;
+    overflow: hidden;
+    width: 49%;
+  }
+  main .sec7 .imgdoc img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  main .sec7 .line4 {
+    width: 1px;
+    height: 41rem;
+    background-color: black;
+  }
+  main .sec7 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+  }
+  main .sec7 .content .secPara .secPara1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+  }
+  main .sec7 .content .secPara .secPara1 p {
+    font-family: "Satoshi";
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+  main .sec8 .title P {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+  main .sec8 .title button {
+    word-spacing: 0.5rem;
+  }
+  main .sec9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid black;
+  }
+  main .sec9 h1 {
+    font-family: "Syne";
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  main .sec9 button {
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    display: block;
+  }
+  main .sec10 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    padding: 4rem 0;
+    border-bottom: 1px solid black;
   }
 }/*# sourceMappingURL=style.css.map */
