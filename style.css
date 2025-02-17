@@ -605,10 +605,10 @@ i {
   main .sec4 .featured-work .work {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   main .sec4 .featured-work .work h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   main .sec4 .featured-work .work p {
     font-size: 1.1rem;
