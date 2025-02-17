@@ -258,6 +258,19 @@ main {
                     line-height: 1.7rem;
                     width: 90%;
             }
+            .work {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+
+                h1 {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
         }
         .line4 {
             width: 100%;
@@ -712,10 +725,10 @@ i {
                 .work {
                     display: flex;
                     flex-direction: column;
-                    gap: 1.5rem;
+                    gap: 2rem;
 
                     h1 {
-                        font-size: 3rem;
+                        font-size: 4rem;
                     }
 
                     p {
